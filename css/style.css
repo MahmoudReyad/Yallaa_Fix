@@ -1,0 +1,168 @@
+/* Start Main Stying */
+body {
+  box-sizing: border-box;
+  padding-top: 45px;
+}
+/*Start Main Header Styling  */
+.main-header {
+  background-image: url('../images/mobilefix.jpg');
+  background-size: cover;
+  color: #fff;
+  background-position: center;
+  overflow: hidden;
+  padding: 15px 10px;
+}
+.main-header .container  > div.row:first-of-type {
+  margin: 20% auto;
+}
+.main-header .container h1 {
+  font-family: 'Dhurjati', sans-serif;
+  font-size: 50px;
+}
+.main-header .container button {
+  padding: 10px 15px;
+  margin-top: 15px;
+}
+
+/* End Main Header Styling */
+/*Start how it is work  */
+.how-it-works {
+  padding: 100px 10px;
+  background-color: #000;
+  color: #fff;
+}
+.how-it-works .container .row > div:first-of-type span {
+  color: #F05F40;
+}
+.how-it-works .container .row > div > i {
+  color:#F05F40;
+  display: block;
+  font-size: 60px;
+}
+.how-it-works .container .row > div > strong {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #F05F40;
+}
+/*Choose Your Device  */
+
+.choose-your-phone .container .row:last-of-type  div img  {
+  display: block;
+  margin: 0 auto;
+}
+.choose-your-phone .container .row:last-of-type  div button {
+  display: block;
+  margin: 10px auto;
+}
+.modal {
+  top:40%;
+}
+.request-order {
+  padding: 25px 10px;
+  background-color: #e6e6e6;
+  display: none;
+}
+/*Request Order  */
+.request-order .container .row h1 {
+  font-weight: bold;
+  color:#F05F40;
+}
+.request-order .container .row form {
+  display: block;
+  width: 70%;
+  margin: 15px auto;
+}
+.request-order .container .row form  select {
+  margin: 10px auto;
+  display: block;
+  width: 40%;
+
+}
+.request-order .container .row form  label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+.request-order .container .row form  input {
+  margin: 20px 2px;
+}
+/*Start Mother Board  */
+.mother_board {
+  background-image: url('../images/mother_board.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 10px;
+  color: #fff;
+  font-family: 'Dhurjati', sans-serif;
+}
+.mother_board h2 {
+  font-size: 70px;
+  color:#F05F40;
+}
+.mother_board p {
+  font-size: 50px;
+}
+/*Start issues  */
+.issues {
+  padding: 40px 15px;
+}
+.issues .container .row div img {
+  transform: scale(.8);
+}
+.issues .container .row div:first-of-type {
+      padding: 85px 10px;
+}
+.issues .container .row div h1 {
+  font-size: 40px;
+  font-family: 'BioRhyme Expanded', serif;
+}
+.issues .container .row div p {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.ultimate-footer {
+  background-color: #191919;
+  padding: 30px 15px;
+  color: #fff;
+}
+.ultimate-footer form input {
+  margin-top: 20px;
+}
+/*Custom  */
+.custom-alert {
+  display: none;
+}
+/*Start loadin Page  */
+/* .loading-page {
+background-color: #000;
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: 9999;
+top: 0;
+left: 0;
+text-align: center;
+overflow: hidden;
+}
+.loading-page i {
+  color: #F05F40;
+  display: block;
+  margin: 20% auto 20px;
+  font-size: 100px;
+}
+.loading-page h3 {
+  font-size: 45px;
+  animation: changecolor 2s ease-in-out infinite alternate;
+}
+@keyframes changecolor {
+    from{
+      color: #000;
+    }
+    to {
+      color: #ccc;
+    }
+} */
