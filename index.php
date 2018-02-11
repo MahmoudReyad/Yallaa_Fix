@@ -107,6 +107,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Dhurjati" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
 
   </head>
   <body>
@@ -125,7 +127,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand pull-left" href="#"><p>Yallaa <span>Fix</span></p></a>
+          <!-- <p>Yallaa <span>Fix</span></p> -->
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="mynavbar">
@@ -356,8 +359,8 @@
     <footer class="ultimate-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-2 col-xs-12">
-            <h1>Logo</h1>
+          <div class="col-md-3 col-xs-12">
+            <img src="images/brand.png" alt="Brand Logo" class="img-responsive">
           </div>
           <div class="col-md-4 col-xs-12">
             <h3>About</h3>
@@ -371,7 +374,7 @@
             <p>Call us on 010 67 81 81 81</p>
             <p>Don't Want to talk? Email us! info@ifixegypt.com</p>
           </div>
-          <div class="col-md-4 col-xs-12">
+          <div class="col-md-3 col-xs-12">
             <h3>Follow us</h3>
             <i class="fab fa-facebook fa-3x"></i>
             <i class="fab fa-instagram fa-3x"></i>

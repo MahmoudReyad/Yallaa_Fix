@@ -16,7 +16,8 @@ body {
   margin: 20% auto;
 }
 .main-header .container h1 {
-  font-family: 'Dhurjati', sans-serif;
+ font-family: 'Raleway', sans-serif;
+
   font-size: 50px;
 }
 .main-header .container button {
@@ -32,10 +33,10 @@ body {
   color: #fff;
 }
 .how-it-works .container .row > div:first-of-type span {
-  color: #F05F40;
+  color: #c70540;
 }
 .how-it-works .container .row > div > i {
-  color:#F05F40;
+  color:#c70540;
   display: block;
   font-size: 60px;
 }
@@ -44,7 +45,7 @@ body {
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #F05F40;
+  color: #002e63;
 }
 /*Choose Your Device  */
 
@@ -67,7 +68,7 @@ body {
 /*Request Order  */
 .request-order .container .row h1 {
   font-weight: bold;
-  color:#F05F40;
+  color:#c70540;
 }
 .request-order .container .row form {
   display: block;
@@ -101,7 +102,7 @@ body {
 }
 .mother_board h2 {
   font-size: 70px;
-  color:#F05F40;
+  color:#c70540;
 }
 .mother_board p {
   font-size: 50px;
@@ -132,6 +133,12 @@ body {
 .ultimate-footer form input {
   margin-top: 20px;
 }
+.ultimate-footer h3 {
+  color: #002e63;
+}
+.ultimate-footer img {
+  float: left;
+}
 /*Custom  */
 .custom-alert {
   display: none;
@@ -149,7 +156,7 @@ text-align: center;
 overflow: hidden;
 }
 .loading-page i {
-  color: #F05F40;
+  color: #c70540;
   display: block;
   margin: 20% auto 20px;
   font-size: 100px;
@@ -166,3 +173,12 @@ overflow: hidden;
       color: #ccc;
     }
 } */
+.navbar-brand p {
+  color: #002e63;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.navbar-brand p span {
+  color: #c70540;
+}
