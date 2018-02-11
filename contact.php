@@ -79,6 +79,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Dhurjati" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900i" rel="stylesheet">
 
   </head>
   <body>
@@ -178,7 +179,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-xs-12">
-            <img src="images/Yalla-fix.png" alt="Brand Logo" class="img-responsive">
+            <img src="images/logo.png" alt="Brand Logo" class="img-responsive">
           </div>
           <div class="col-md-3 col-xs-12">
             <h3>About</h3>
@@ -196,11 +197,6 @@
             <h3>Follow us</h3>
             <i class="fab fa-facebook fa-3x"></i>
             <i class="fab fa-instagram fa-3x"></i>
-            <p>Subscibe to our newsletter and get access to exclusive discounts and prizes!</p>
-            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
-              <input type="email"  name="email" required placeholder="Enter Your Email" class="form-control">
-              <input type="submit" value="Subscribe" class="btn btn-primary btn-block" name="subscribe">
-             </form>
           </div>
         </div>
       </div>

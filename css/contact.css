@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
+    background-color: #ccc;
 }
 .contact_us {
   padding: 100px 20px !important;
@@ -44,4 +45,19 @@ textarea {
 }
 .custom-success {
   margin: 10px auto;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway' , 'sans serif';
+  font-weight: black;
+  font-style: italic;
+  text-transform: uppercase;
+}
+p , span  , button{
+  font-family: 'Raleway','sans serif';
+  font-style: italic;
+  text-transform: capitalize;
+
+}
+h1 {
+  color: #c70540;
 }
