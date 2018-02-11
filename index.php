@@ -107,8 +107,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Dhurjati" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900i" rel="stylesheet">
 
   </head>
   <body>
@@ -117,7 +116,7 @@
       <h3>Loading...</h3>
     </div> -->
     <!-- Start NavBar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top ">
+    <nav class="navbar navbar-default navbar-fixed-top ">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -134,7 +133,7 @@
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="contact.php" data-value="footer" class="contact">Contact</a></li>
+            <li><a href="contact.php" data-value="footer" class="contact">Contact Us</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -146,7 +145,8 @@
         <div class="row">
           <div id="content" class="col-xs-12">
             <div class="row">
-              <div class="col-xs-12"><h1>fix your phone in under 30 minutes anywhere <wbr>backed by a Lifetime Warranty</h1></div>
+              <img src="images/logo.png" alt="brand" class="img-responsive">
+              <div class="col-xs-12"><h1>fix your phone at Your home</h1></div>
             </div>
             <div class="row">
               <div class="col-xs-12"><button class="btn btn-success order" data-value=".choose-your-phone">Order Now</button></div>
@@ -199,7 +199,7 @@
             </div>
             <div class="col-xs-6 text-center">
               <img  class="img-responsive" src= "images/other-choice.png" alt="Other">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Other</button>
+              <button type="button" class="btn btn-primary other" data-toggle="modal" data-target=".bs-example-modal-sm">Other</button>
               <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
                 <div class="modal-dialog modal-sm" role="document">
                   <div class="modal-content">
@@ -333,15 +333,14 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h2>Do You Know ?</h2>
-            <p class="lead">We also fixing MotherBoards of any device Contact us to know more !</p>
+            <p class="lead">We also fix MotherBoards</p>
           </div>
         </div>
       </div>
     </section>
     <!--End  Mother Board fixing -->
     <!--Start issues  -->
-    <section class="issues ">
+    <!-- <section class="issues ">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-xs-12">
@@ -353,14 +352,14 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End issues -->
     <!--Start ultimate footer  -->
     <footer class="ultimate-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-xs-12">
-            <img src="images/brand.png" alt="Brand Logo" class="img-responsive">
+            <img src="images/logo.png" alt="Brand Logo" class="img-responsive">
           </div>
           <div class="col-md-4 col-xs-12">
             <h3>About</h3>
@@ -378,11 +377,6 @@
             <h3>Follow us</h3>
             <i class="fab fa-facebook fa-3x"></i>
             <i class="fab fa-instagram fa-3x"></i>
-            <p>Subscibe to our newsletter and get access to exclusive discounts and prizes!</p>
-            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
-              <input type="email"  name="email" required placeholder="Enter Your Email" class="form-control">
-              <input type="submit" value="Subscribe" class="btn btn-primary btn-block" name="subscribe">
-             </form>
           </div>
         </div>
       </div>

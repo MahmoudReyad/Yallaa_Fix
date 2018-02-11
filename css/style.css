@@ -29,8 +29,8 @@ body {
 /*Start how it is work  */
 .how-it-works {
   padding: 100px 10px;
-  background-color: #000;
-  color: #fff;
+  background-color: #ddd;
+  color: #333;
 }
 .how-it-works .container .row > div:first-of-type span {
   color: #c70540;
@@ -48,15 +48,22 @@ body {
   color: #002e63;
 }
 /*Choose Your Device  */
-
-.choose-your-phone .container .row:last-of-type  div img  {
-  display: block;
-  margin: 0 auto;
+.choose-your-phone {
+  padding: 40px 10px;
 }
-.choose-your-phone .container .row:last-of-type  div button {
+.choose-your-phone .container .row:last-of-type  div img  {
   display: block;
   margin: 10px auto;
 }
+.choose-your-phone .container .row:last-of-type  div button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  width: 100px;
+  background-color: #002e63;
+  border: none;
+}
+
 .modal {
   top:40%;
 }
@@ -96,16 +103,12 @@ body {
   background-image: url('../images/mother_board.jpg');
   background-size: cover;
   background-position: center;
-  padding: 100px 10px;
+  padding: 50px 10px;
   color: #fff;
   font-family: 'Dhurjati', sans-serif;
 }
-.mother_board h2 {
-  font-size: 70px;
-  color:#c70540;
-}
 .mother_board p {
-  font-size: 50px;
+  font-size:50px;
 }
 /*Start issues  */
 .issues {
@@ -126,9 +129,9 @@ body {
   font-size: 20px;
 }
 .ultimate-footer {
-  background-color: #191919;
-  padding: 30px 15px;
-  color: #fff;
+  background-color: #fff;
+  padding: 50px 15px;
+  color: #000;
 }
 .ultimate-footer form input {
   margin-top: 20px;
@@ -173,12 +176,67 @@ overflow: hidden;
       color: #ccc;
     }
 } */
+/*special Edit  */
 .navbar-brand p {
   color: #002e63;
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: uppercase;
 }
 .navbar-brand p span {
   color: #c70540;
 }
+/* .main-header button {
+  background-color: #c70540;
+  border: none;
+  padding: 10px 15px;
+} */
+.navbar-default {
+  background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway' , 'sans serif';
+  font-weight: black;
+  font-style: italic;
+  text-transform: uppercase;
+}
+p , span  , button{
+  font-family: 'Raleway','sans serif';
+  font-style: italic;
+  text-transform: capitalize;
+
+}
+button , .iphone , .other , input[type = "submit"] {
+  text-transform: uppercase;
+  border-radius:300px !important;
+  background-color: #c70540 !important;
+  border: none !important;
+}
+button:hover , button:focus {
+ opacity: .8;
+}
+ img {
+  margin: 0 auto;
+}
+footer img {
+  margin-top: 70px;
+}
+i:hover {
+  color: #c70540;
+}
+.navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav li a:hover
+  {
+    color: #fff;
+    background-color: #c70540;
+    border: none;
+  }
+  .navbar-default .navbar-nav li a:not(active):hover{
+    background-color: #002e63;
+    color: #fff;
+    border: none;
+  }

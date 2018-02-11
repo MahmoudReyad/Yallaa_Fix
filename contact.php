@@ -83,7 +83,7 @@
   </head>
   <body>
     <!-- Start NavBar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top ">
+    <nav class="navbar navbar-default navbar-fixed-top ">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -178,7 +178,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-xs-12">
-            <img src="images/brand.png" alt="Brand Logo" class="img-responsive">
+            <img src="images/Yalla-fix.png" alt="Brand Logo" class="img-responsive">
           </div>
           <div class="col-md-3 col-xs-12">
             <h3>About</h3>
