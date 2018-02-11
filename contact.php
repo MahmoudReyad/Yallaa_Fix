@@ -93,7 +93,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand" href="#"><p>Yallaa <span>Fix</span></p></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="mynavbar">
@@ -177,10 +177,10 @@
     <footer class="ultimate-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-2 col-xs-12">
-            <h1>Logo</h1>
-          </div>
           <div class="col-md-4 col-xs-12">
+            <img src="images/brand.png" alt="Brand Logo" class="img-responsive">
+          </div>
+          <div class="col-md-3 col-xs-12">
             <h3>About</h3>
             <p>iFix is a new mobile repair concept brought to you by a team of Egyptian mobile experts and technology enthusiasts. We understand how precious your mobile device is to you, which is why we're here to the rescue! Our team of professional and highly-qualified technicians promises to have your problems
               fixed wherever you are, in no more than 30 minutes.</p>
@@ -192,7 +192,7 @@
             <p>Call us on 010 67 81 81 81</p>
             <p>Don't Want to talk? Email us! info@ifixegypt.com</p>
           </div>
-          <div class="col-md-4 col-xs-12">
+          <div class="col-md-3 col-xs-12">
             <h3>Follow us</h3>
             <i class="fab fa-facebook fa-3x"></i>
             <i class="fab fa-instagram fa-3x"></i>
