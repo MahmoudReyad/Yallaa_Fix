@@ -46,7 +46,7 @@ textarea {
 .custom-success {
   margin: 10px auto;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, strong {
   font-family: 'Raleway' , 'sans serif';
   font-weight: black;
   font-style: italic;
@@ -54,9 +54,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 p , span  , button{
   font-family: 'Raleway','sans serif';
-  font-style: italic;
-  text-transform: capitalize;
-
+  text-transform: uppercase;
+  font-weight: bold;
 }
 h1 {
   color: #c70540;

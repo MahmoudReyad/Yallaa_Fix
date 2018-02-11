@@ -35,6 +35,9 @@ body {
 .how-it-works .container .row > div:first-of-type span {
   color: #c70540;
 }
+.how-it-works  h1 {
+  margin-top: 50px;
+}
 .how-it-works .container .row > div > i {
   color:#c70540;
   display: block;
@@ -53,6 +56,8 @@ body {
 }
 .choose-your-phone  h1 {
   color: #c70540;
+  margin: 30px auto !important;
+  color: #666;
 }
 .choose-your-phone .container .row:last-of-type  div img  {
   display: block;
@@ -132,7 +137,7 @@ body {
   font-size: 20px;
 }
 .ultimate-footer {
-  background-color: #fff;
+  background-color: #ccc;
   padding: 50px 15px;
   color: #000;
 }
@@ -199,7 +204,7 @@ overflow: hidden;
 .navbar-default {
   background-color: #fff;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 ,strong {
   font-family: 'Raleway' , 'sans serif';
   font-weight: black;
   font-style: italic;
@@ -207,15 +212,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 p , span  , button , ul li{
   font-family: 'Raleway','sans serif';
-  font-style: italic;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  font-weight: bold;
 
+}
+button {
+  padding: 13px 25px !important;
 }
 button , .iphone , .other , input[type = "submit"] {
   text-transform: uppercase;
   border-radius:300px !important;
   background-color: #c70540 !important;
   border: none !important;
+  font-family: 'Raleway','sans serif';
+  font-weight: bold;
 }
 button:hover , button:focus {
  opacity: .8;

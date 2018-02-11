@@ -162,7 +162,6 @@
          <div class="row">
            <div class="col-lg-3">
              <h1><span>H</span/>ow <br> it <span>W</span>orks ? </h1>
-             <h1>Very <span>S</span>imple<h1>
            </div>
            <div class="col-lg-3">
              <i class="fas fa-laptop fa-3x"></i>
