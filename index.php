@@ -126,14 +126,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand pull-left" href="#"><p>Yallaa <span>Fix</span></p></a>
-          <!-- <p>Yallaa <span>Fix</span></p> -->
+          <a class="navbar-brand" href="#"><p>Yallaa <span>Fix</span></p></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="contact.php" data-value="footer" class="contact">Contact Us</a></li>
+            <li ><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#" data-value="footer" class="contact">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -332,7 +331,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <p class="lead">We also fix MotherBoards</p>
+            <p>We also fix MotherBoards</p>
           </div>
         </div>
       </div>

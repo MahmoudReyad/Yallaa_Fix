@@ -20,7 +20,7 @@ body {
 
   font-size: 50px;
 }
-.main-header .container button {
+.main-header .container button:not(navbar-toggle) {
   padding: 10px 15px;
   margin-top: 15px;
 }
@@ -115,7 +115,8 @@ body {
   color: #fff;
 }
 .mother_board p {
-  font-size:50px;
+  font-size:35px;
+  word-wrap: break-word;
   text-transform: uppercase;
 }
 /*Start issues  */
@@ -210,7 +211,7 @@ h1,h2,h3,h4,h5,h6 ,strong {
   font-style: italic;
   text-transform: uppercase;
 }
-p , span  , button , ul li{
+p , span:not  , button , ul li{
   font-family: 'Raleway','sans serif';
   text-transform: uppercase;
   font-weight: bold;
@@ -219,7 +220,7 @@ p , span  , button , ul li{
 button {
   padding: 13px 25px !important;
 }
-button , .iphone , .other , input[type = "submit"] {
+button:not(navbar-toggle) , .iphone , .other , input[type = "submit"] {
   text-transform: uppercase;
   border-radius:300px !important;
   background-color: #c70540 !important;
@@ -227,14 +228,15 @@ button , .iphone , .other , input[type = "submit"] {
   font-family: 'Raleway','sans serif';
   font-weight: bold;
 }
-button:hover , button:focus {
+button:not(navbar-toggle):hover , button:not(navbar-toggle):focus  {
  opacity: .8;
 }
  img {
   margin: 0 auto;
 }
 footer img {
-  margin-top: 70px;
+  margin: 70px 0 0;
+
 }
 i:hover {
   color: #c70540;
