@@ -132,7 +132,7 @@
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="nav navbar-nav navbar-right">
             <li class="active" ><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="contact.php" data-value="footer" class="contact">Contact</a></li>
+            <li><a href="contact.php" data-value="footer" class="contact">Contact us</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->

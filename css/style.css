@@ -211,11 +211,10 @@ h1,h2,h3,h4,h5,h6 ,strong {
   font-style: italic;
   text-transform: uppercase;
 }
-p , span:not  , button , ul li{
+p , span , button , ul li ,  a {
   font-family: 'Raleway','sans serif';
   text-transform: uppercase;
   font-weight: bold;
-
 }
 button {
   padding: 13px 25px !important;
